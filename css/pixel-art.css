@@ -1,3 +1,61 @@
-body{
-    background-color: black;
+.debug{
+    border: 1px solid black;
+}
+/* PALETTE DEI COLORI */
+
+.amaranto{
+    background-color: #371514;
+}
+.darkred{
+    background-color: #7B1C1C;
+}
+.red{
+    background-color: #BE202F;
+}
+.lightred{
+    background-color: #CB5249;
+}
+
+.darkpink{
+    background-color: #DE917F;
+}
+.pink{
+    background-color: #F9C48C;
+}
+.ocra{
+    background-color: #BB926A;
+}
+.lightbrown{
+    background-color: #745A4D;
+}
+.brown{
+    background-color: #61493F;
+}
+.black{
+    background-color: #231F20;
+}
+.darkgrey{
+    background-color: #414143;
+}
+.lightgrey{
+    background-color: #BCBEC1;
+}
+.pavimento{
+    background-color: #636363;
+}
+
+/* colori chitarra */
+.guit-lightbrown{
+    background-color: #B57128;
+}
+.guit-darkbrown{
+    background-color: #6A4F34;
+}
+.yellow{
+    background-color: #FCB043;
+}
+.container{
+    height: 600px;
+    width: 600px;
+    margin: 0 auto;
 }
