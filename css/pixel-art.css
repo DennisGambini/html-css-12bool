@@ -54,6 +54,9 @@
 .yellow{
     background-color: #FCB043;
 }
+.white{
+    background-color: white;
+}
 .container{
     height: 600px;
     width: 600px;
