@@ -9,6 +9,34 @@
     flex-flow: row nowrap;
 }
 
+/* justify content */
+.start{
+    justify-content: flex-start;
+}
+.center{
+    justify-content: center;
+}
+.end{
+    justify-content: flex-end;
+}
+.around{
+    justify-content: space-around;
+}
+.between{
+    justify-content: space-between;
+}
+
+/* align self */
+.top{
+    align-self: flex-start;
+}
+.middle{
+    align-self: center;
+}
+.bottom{
+    align-self: flex-end;
+}
+
 /* colonne */
 
 .col-xs-1{

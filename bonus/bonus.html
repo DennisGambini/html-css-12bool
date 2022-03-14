@@ -6,9 +6,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/framework.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bonus.css">
     <title>Bonus</title>
 </head>
 <body>
-    
+    <!-- sezione uno -->
+    <section class="section-one">
+        <h1>Nested</h1>
+
+        <div class="row">
+            <div class="box col-xs-7 row">
+                <div class="nested-box col-xs-3"></div>
+                <div class="nested-box col-xs-6"></div>
+                <div class="nested-box col-xs-3"></div>
+            </div>
+            <div class="box col-xs-5 row">
+                <div class="nested-box col-xs-6"></div>
+                <div class="nested-box col-xs-6"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- sezione due -->
+    <section>
+        <!-- start center end -->
+        <h1>Alignment</h1>
+
+        <div class="row start">
+            <div class="box col-xs-6">start</div>
+        </div>
+        <div class="row center">
+            <div class="box col-xs-6">center</div>
+        </div>
+        <div class="row end">
+            <div class="box col-xs-6">end</div>
+        </div>
+
+        <!-- top middle bottom -->
+        <div class="row big">
+            <div class="box col-xs-6"></div>
+            <div class="box col-xs-6 top">top</div>
+        </div>
+        <div class="row big">
+            <div class="box col-xs-6"></div>
+            <div class="box col-xs-6 middle">middle</div>
+        </div>
+        <div class="row big">
+            <div class="box col-xs-6"></div>
+            <div class="box col-xs-6 bottom">bottom</div>
+        </div>
+    </section>
+
+    <!-- sezione tre -->
+    <section>
+        <h1>Justify content</h1>
+
+        <h3>Space around</h3>
+        <div class="row">
+            <div class="box col-xs-12 row around">
+                <div class="nested-box col-xs-2"></div>
+                <div class="nested-box col-xs-2"></div>
+                <div class="nested-box col-xs-2"></div>
+            </div>
+        </div>
+
+        <h3>Space between</h3>
+        <div class="box col-xs-12 row between">
+            <div class="nested-box col-xs-2"></div>
+            <div class="nested-box col-xs-2"></div>
+            <div class="nested-box col-xs-2"></div>
+        </div>
+    </section>
 </body>
 </html>
