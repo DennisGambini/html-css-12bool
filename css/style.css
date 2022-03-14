@@ -1,0 +1,23 @@
+.box{
+    background-color: #006CFA;
+    padding: 15px;
+    border: 1px solid white;
+    text-align: center;
+    vertical-align: middle;
+}
+.nested-box{
+    background-color: #00E165;
+    padding: 15px;
+    border: 1px solid #006CFA;
+    text-align: center;
+    vertical-align: middle;
+}
+.row{
+    color: white;
+}
+section{
+    margin-bottom: 20px;
+}
+.section-two .box, .section-three .box{
+    height: 50px;
+}
